@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / Twitter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+
+      <link rel="icon" href="./images/twiiter-blue.png" type="image/x-icon">
+ 
+</head>
+<body>
+    <div class="layout">
+
+        <!-- ========== SIDE BAR =========== -->
+
+  <div class="layout__left-section">
+      
+    <div class="sidebar">
+
+         <div class="sidebar__top">
+             
+            <div class="sidebar-brand">
+                <img class="sidebar-brand__icon" src="./assets/twitter.svg">
+            </div>
+
+            <div class="sidebar-menu">
+
+                <div class="sidebar-menu__item sidebar-menu__item--active notifications-content">
+                   <img class="sidebar-menu__item-icon" src="./assets/home.svg">
+                   <div class="sidebar-menu__item-heading">Home</div>
+                   <div class="notifications"></div>
+                </div>
+
+                    <div class="sidebar-menu__item ">
+                   <img class="sidebar-menu__item-icon" src="./assets/explore.svg">
+                   <div class="sidebar-menu__item-heading">Explore</div>
+                </div>
+
+                <div class="sidebar-menu__item ">
+                    <img class="sidebar-menu__item-icon" src="./assets/notifications.svg">
+                    <div class="sidebar-menu__item-heading">Notifications</div>
+                 </div>
+
+                 <div class="sidebar-menu__item ">
+                    <img class="sidebar-menu__item-icon" src="./assets/messages.svg">
+                    <div class="sidebar-menu__item-heading">Messages</div>
+                 </div>
+
+                 <div class="sidebar-menu__item ">
+                    <img class="sidebar-menu__item-icon" src="./assets/profile.svg">
+                    <div class="sidebar-menu__item-heading">Profile</div>
+                 </div>
+
+                 <div class="sidebar-menu__item ">
+                    <img class="sidebar-menu__item-icon" src="./assets/more.svg">
+                    <div class="sidebar-menu__item-heading">More</div>
+                 </div>
+
+                 <button class="sidebar-menu__tweet-btn">
+                     Tweet
+                 </button>
+            </div>
+         </div>
+      
+
+         <div class="sidebar__bottom">
+         <div class="sidebar-profile">
+            <div class="sidebar-profile__user">
+                <img class="sidebar-profile__user-picture" src="./images/my-profile.webp">
+            </div>
+
+            <div class="sidebar-profile__user-info">
+                <div class="sidebar-profile__user-name">
+                    Steve
+                </div>
+
+                <div class="sidebar-profile__user-id">
+                    @steve
+                </div>
+            </div>
+         </div>
+
+         </div>
+
+
+
+    </div>
+</div>
+
+     <!-- ========== HERO SECTION =========== -->
+
+
+
+ <div class="layout__main-section">
+   <div class="hero">
+   
+      <div class="home">
+
+       <div class="home__header">
+          <div class="home__header-heading">Home</div>
+          <div class="home__header-icon"> <span class="material-icons-outlined">
+            auto_awesome
+            </span></div>
+       </div>
+     
+       <div class="home__user">
+           
+        <div class="home__user-picture">
+            <img class="profile" src="./images/my-profile.webp">
+        </div>
+
+
+        <div class="home__user-info">
+            
+            <div class="user-tweet">
+                 <input class="user-tweet__input" type="text" placeholder="What's happening?">
+            </div>
+
+            <div class="user-tweet__tools">
+                  
+                <div class="user-tweet__tools-icons">
+                    <div class="user-tweet__tools-icons-container">
+                        <span class="material-icons-outlined">
+                            collections
+                         </span>
+
+                         <div class="tooltip">
+                           Media
+                        </div>
+                    </div>
+
+                     <div class="user-tweet__tools-icons-container">
+                         <span class="material-icons-outlined">
+                            gif_box
+                         </span>
+
+                         <div class="tooltip">
+                           GIF
+                        </div>
+                     </div>
+                    <div class="user-tweet__tools-icons-container">
+                        <span class="material-icons-outlined">
+                            poll
+                        </span>
+
+                        <div class="tooltip">
+                           Poll
+                        </div>
+                    </div>
+                    <div class="user-tweet__tools-icons-container">
+                        <span class="material-icons-outlined">
+                            emoji_emotions
+                        </span>
+
+                        <div class="tooltip">
+                           Emoji
+                        </div>
+                    </div>
+
+                    <div class="user-tweet__tools-icons-container">
+                        <span class="material-icons-outlined">
+                            today
+                        </span>
+
+                        <div class="tooltip">
+                            Schedule
+                        </div>
+                    </div>
+
+                    <div class="user-tweet__tools-icons-container">
+                        <span class="material-icons-outlined">
+                          location_on
+                        </span>
+
+                        <div class="tooltip">
+                            Location
+                        </div>
+                    </div>
+                </div>
+
+                <button class="user-tweet__btn">
+                     Tweet
+                </button>
+
+            </div>
+
+        </div>
+
+
+       </div>
+
+       
+      </div>
+      
+    <div class="tweet-section">
+        <div class="tweet-section__suggestion">
+            <div class="tweet-section__suggestion-heading grey">
+                Elon Musk &#183;
+            </div>
+            <div class="tweet-section__suggestion-see-more blue">
+                See more
+            </div>
+        </div>
+        
+        <div class="tweet-section__container">
+             <div class="tweet-section__profile">
+                <img class="tweet-section__profile-img" src="./images/elon.jpg">
+             </div> 
+
+             <div class="tweet-section__info">
+              <div class="tweet-section__info-heading">
+                 <div class="tweet-section__info-heading-left">
+                     <div class="profile-name">
+                        Elo Musk
+                     </div>
+                     <img class="verified" src="./images/verified.svg">
+                     <div class="profile-id grey">
+                        @elonmusk &#183;
+                     </div>
+                       <div class="post-time grey">
+                        8h
+                       </div>
+                 </div>
+
+                 <div class="tweet-section__info-heading-right">
+                    <span class="material-icons-outlined">
+                        more_horiz
+                        </span>
+                 </div>
+              </div>
+
+              <div class="tweet-section__info-tweet">
+                What video games have you enjoyed most over past year or two?
+              </div>
+
+              <div class="tweet-section-info-picture">
+                
+              </div>
+
+              <div class="tweet-section__info-action">
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        mode_comment
+                        </span>
+                     <span class="grey tweet-count">69.9K</span>
+                     <div class="tooltip">
+                        Reply
+                    </div>
+                 </div>
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        loop
+                        </span>
+
+                        <span class="grey tweet-count">9,989</span>
+                        <div class="tooltip">
+                            Retweet
+                        </div>
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class=" grey material-icons-outlined reaction-red">
+                        favorite_border
+                        </span>
+                        <span class="grey tweet-count tweet-count-red">110K</span>
+                        <div class="tooltip">
+                            Like
+                        </div>
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        file_download
+                        </span>
+
+                        <div class="tooltip">
+                            Share
+                        </div>
+                </div>
+                   
+
+              </div>
+             </div>
+
+        </div>
+
+    </div>
+
+    <div class="tweet-section">
+        <div class="tweet-section__suggestion">
+            <div class="tweet-section__suggestion-heading grey">
+                Tech industry &#183;
+            </div>
+            <div class="tweet-section__suggestion-see-more blue">
+                See more
+            </div>
+        </div>
+        
+        <div class="tweet-section__container">
+             <div class="tweet-section__profile">
+                <img class="tweet-section__profile-img" src="./images/engadget.png">
+             </div> 
+
+             <div class="tweet-section__info">
+              <div class="tweet-section__info-heading">
+                 <div class="tweet-section__info-heading-left">
+                     <div class="profile-name">
+                        Engadget
+                     </div>
+                     <img class="verified" src="./images/verified.svg">
+                     <div class="profile-id grey">
+                        @engadget &#183;
+                     </div>
+                       <div class="post-time grey">
+                        16h
+                       </div>
+                 </div>
+
+                 <div class="tweet-section__info-heading-right">
+                    <span class="material-icons-outlined">
+                        more_horiz
+                        </span>
+                 </div>
+              </div>
+
+              <div class="tweet-section__info-tweet">
+                HBO Max will begin streaming 'Game of Thrones' in 4K HDR next month <span class="tweet-link">https://engt.co/3J9OU6U</span>
+              </div>
+
+              <div class="tweet-section-info-picture">
+                 <img class="tweet-img" src="./images/tweet-img.jpeg" alt="">
+              </div>
+
+              <div class="tweet-section__info-action">
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        mode_comment
+                        </span>
+                     <span class="grey tweet-count">13</span>
+                     <div class="tooltip">
+                        Reply
+                    </div>
+                 </div>
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        loop
+                        </span>
+
+                        <span class="grey tweet-count">35</span>
+                        <div class="tooltip">
+                            Retweet
+                        </div>
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class=" grey material-icons-outlined reaction-red">
+                        favorite_border
+                        </span>
+                        <span class="grey tweet-count tweet-count-red">234</span>
+                        <div class="tooltip">
+                            Like
+                        </div>
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        file_download
+                        </span>
+                        <div class="tooltip">
+                            Share
+                        </div>
+                        
+                </div>
+                   
+
+              </div>
+             </div>
+
+        </div>
+
+    </div>
+
+    <div class="tweet-section">
+        <div class="tweet-section__suggestion">
+            <div class="tweet-section__suggestion-heading grey">
+                Tech News &#183;
+            </div>
+            <div class="tweet-section__suggestion-see-more blue">
+                See more
+            </div>
+        </div>
+        
+        <div class="tweet-section__container">
+             <div class="tweet-section__profile">
+                <img class="tweet-section__profile-img" src="./images/mkbhd.jpg">
+             </div> 
+
+             <div class="tweet-section__info">
+              <div class="tweet-section__info-heading">
+                 <div class="tweet-section__info-heading-left">
+                     <div class="profile-name">
+                      Marques Brownlee
+                     </div>
+                     <img class="verified" src="./images/verified.svg">
+                     <div class="profile-id grey">
+                        @MKBHD &#183;
+                     </div>
+                       <div class="post-time grey">
+                      Jul 5
+                       </div>
+                 </div>
+
+                 <div class="tweet-section__info-heading-right">
+                    <span class="material-icons-outlined">
+                        more_horiz
+                        </span>
+                 </div>
+              </div>
+
+              <div class="tweet-section__info-tweet">
+                NEW VIDEO - ROG Phone 6 Pro Review: Daily Driver Material!
+                   
+<span class="tweet-link">https://youtu.be/dKq_xfCz3Jk</span>
+              </div>
+
+              <div class="tweet-section-info-picture">
+                 <img class="tweet-img" src="./images/rog.jpeg" alt="">
+              </div>
+
+              <div class="tweet-section__info-action">
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        mode_comment
+                        </span>
+                     <span class="grey tweet-count">99</span>
+                     <div class="tooltip">
+                         Reply
+                     </div>
+                 </div>
+
+                 <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        loop
+                        </span>
+                        <div class="tooltip">
+                           Retweet
+                        </div>
+
+                        <span class="grey tweet-count">236</span>
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class=" grey material-icons-outlined reaction-red">
+                        favorite_border
+                        </span>
+                        <div class="tooltip">
+                            Like
+                        </div>
+                        <span class="grey tweet-count tweet-count-red">5,040</span>
+                       
+                </div>
+
+                <div class="tweet-reaction">
+                    <span class="grey material-icons-outlined reaction">
+                        file_download
+                        </span>
+                        <div class="tooltip">
+                            Share
+                        </div>
+                        
+                </div>
+                   
+
+              </div>
+             </div>
+
+        </div>
+
+    </div>
+
+   
+
+
+   </div>
+ </div>
+
+
+
+<!-- ============ FEED SECTION ============== -->
+  <div class="layout__right-section">
+
+     <div class="feed">
+         
+       <div class="feed__top">
+         <div class="feed-search">
+            <input class="feed-search-input" type="text" placeholder="Search Twitter">
+            <span class="material-icons-outlined">
+                search
+                </span>
+        </div>
+
+       </div>
+
+
+       <div class="feed__middle">
+           <h3 class="feed__middle-heading">
+            What's happening
+           </h3>
+           
+          <div class="feed__sports">
+          
+            <div class="feed__sports-info">
+                <div class="feed__sports-heading">
+                    Sports . LIVE
+                </div>
+
+                <div class="feed__sports-desc">
+                    World Athletics Championships: Neeraj Chopra claims silver in men's javelin
+                </div>
+
+                <div class="feed__sports-trending-with">
+                    Trending with <span class="blue">1st Indian , Olympics</span>
+                </div>
+            </div>
+
+            <div class="feed__sports-img">
+                <img src="./images/sports.jpeg" alt="World Athletics Championships: Neeraj Chopra claims silver in men's javelin">
+            </div>
+
+
+          </div>
+          
+
+           <div class="feed__trending">
+              <div class="feed__trending-left">
+                  <div class="feed__trending-heading">
+                     Trending in India
+                  </div>
+                  <div class="feed__trending-tweet">
+                    #PrisonBreak
+                  </div>
+                  <div class="feed__trending-tweet-count">
+                     1,998 Tweets
+                  </div>
+              </div>
+
+              <div class="feed__trending-right">
+                <span class="material-icons-outlined">
+                    more_horiz
+                    </span>
+              </div>
+             
+           </div>
+
+
+           <div class="feed__trending">
+            <div class="feed__trending-left">
+                <div class="feed__trending-heading">
+                  Entertainment . Trending
+                </div>
+                <div class="feed__trending-tweet">
+                 #LCU
+                </div>
+                <div class="feed__trending-tweet-count">
+                   1,008 Tweets
+                </div>
+            </div>
+
+            <div class="feed__trending-right">
+              <span class="material-icons-outlined">
+                  more_horiz
+                  </span>
+            </div>
+           
+         </div>
+
+
+         <div class="feed__trending">
+            <div class="feed__trending-left">
+                <div class="feed__trending-heading">
+                   Trending
+                </div>
+                <div class="feed__trending-tweet">
+                 #100DaysOfCode
+                </div>
+                <div class="feed__trending-tweet-count">
+                   2,998 Tweets
+                </div>
+            </div>
+
+            <div class="feed__trending-right">
+              <span class="material-icons-outlined">
+                  more_horiz
+                  </span>
+            </div>
+           
+         </div>
+
+         <div class="feed__trending">
+            <div class="feed__trending-left">
+                <div class="feed__trending-heading">
+                   Trending in India
+                </div>
+                <div class="feed__trending-tweet">
+                 #TNPSC
+                </div>
+                <div class="feed__trending-tweet-count">
+                   3,998 Tweets
+                </div>
+            </div>
+
+            <div class="feed__trending-right">
+              <span class="material-icons-outlined">
+                  more_horiz
+                  </span>
+            </div>
+
+
+           
+         </div>
+
+           <div class="feed__trending">
+             <div class=" blue">Show more</div>
+           </div>
+       </div>
+
+       <div class="feed__bottom">
+
+          <div class="feed__bottom-top">
+            
+            <div class="feed-follow">
+               <div class="feed-follow__heading">
+                 Who to follow
+               </div>
+
+               <div class="feed-follow__page">
+                 <div class="feed-follow__page-info">
+                    <div class="feed-follow__page-img">
+                        <img src="./images/bbc.jpg">
+                     </div>
+                    <div class="feed-follow-page">
+                        <div class="name">BBC News Tamil <img class="verified" src="./images/verified.svg"></div>
+                        <div class="id grey">@bbctamil</div>
+                    </div>
+                   
+                 </div>
+
+                 <button class="feed-follow__page-btn">
+                    Follow
+                 </button>
+
+                 
+               </div>
+
+               <div class="feed-follow__page">
+                
+
+                <div class="feed-follow__page-info">
+
+                    <div class="feed-follow__page-img">
+                        <img src="./images/ms.png">
+                     </div>
+                    
+                   <div class="feed-follow-page">
+                    <div class="name">Microsoft <img class="verified" src="./images/verified.svg"> </div>
+                    <div class="id grey">@Microsoft</div>
+                   </div>
+                  
+                </div>
+
+                <button class="feed-follow__page-btn">
+                   Follow
+                </button>
+
+                
+              </div>
+
+
+              <div class="feed-follow__page">
+
+                <div class="feed-follow__page-info">
+                    <div class="feed-follow__page-img">
+                        <img src="./images/mkbhd.jpg">
+                    </div>
+
+                   <div class="feed-follow-page">
+                    <div class="name">Marques Brownlee   
+                    <img class="verified" src="./images/verified.svg"></div>
+                    <div class="id grey">@MKBHD</div>
+                   </div>
+                 
+                </div>
+
+                <button class="feed-follow__page-btn">
+                   Follow
+                </button>
+
+                
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+            
+          <div class="feed__bottom-down">
+             <div class="feed__bottom-down-policiy">
+                 <a class="grey" href="#">Terms of Service</a>
+                 <a class="grey" href="#"> Privacy Policy</a>
+                 <a class="grey" href="#">Cookie Policy</a>
+             </div>
+
+             <div class="feed__bottom-down-more">
+                 <a class="grey" href="#">Accessibility</a>
+                 <a class="grey" href="#"> Ads info</a>
+                 <a class="grey" href="#">More...</a>
+             </div>
+
+             <div class="feed__bottom-down-copyright"><div class="copyright grey" href="#"> 	&#169; 2022 Twitter, Inc.</div></div>
+             
+
+
+       </div>
+
+
+     </div>
+
+  </div>
+
+    </div>
+</body>
+</html>

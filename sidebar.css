@@ -1,0 +1,119 @@
+
+.sidebar{
+    position: fixed;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding-left: 50px;
+    padding-top: 10px;
+    z-index: 10;
+  
+}
+
+.sidebar__top{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-brand__icon{
+    height: 46px;
+    padding: 8px;
+    border-radius: 30px;
+    margin-left: 8px;
+    transition: background .15s;
+    cursor: pointer;
+    filter: invert(51%) sepia(65%) saturate(2013%) hue-rotate(158deg) brightness(90%) contrast(101%);
+}
+
+.sidebar-brand__icon:hover{
+ background:#1da0f227;
+
+}
+
+.sidebar-menu__item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 13px 15px;
+    width: fit-content;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background .20s;
+    margin-bottom: 5px;
+
+}
+
+.sidebar-menu__item:hover{
+    background-color: rgb(230, 230, 230); 
+ }
+.sidebar-menu__item-icon{
+    height: 23px;
+}
+
+.sidebar-menu__item-heading{
+    font-size: 20px;
+}
+
+.sidebar-menu__item--active div{
+    font-weight: 900;
+}
+
+.sidebar-menu__tweet-btn{
+    padding: 15px 80px;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    background: #1da1f2;
+    color: rgba(255, 255, 255, 0.897);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background .15s;
+}
+
+.sidebar-menu__tweet-btn:hover{
+    background: #1795e4;
+}
+
+.sidebar-profile{
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar-profile__user-picture{
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.sidebar-profile{
+   padding: 5px;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: background .15s ease;
+}
+
+.sidebar-profile__user-name{
+    font-weight: 700;
+}
+
+.sidebar-profile__user-id{
+    color: rgb(97, 97, 97);
+}
+
+.sidebar-profile:hover{
+    background-color: rgb(230, 230, 230); 
+}
+.notifications-content{
+    position: relative;
+}
+.notifications{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1795e4;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}

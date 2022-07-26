@@ -1,0 +1,273 @@
+.layout__main-section{
+    border-right: 1px solid  rgba(224, 224, 224, 0.589);
+    border-left: 1px solid  rgba(224, 224, 224, 0.589);
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.589);
+}
+
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+   
+}
+.home__header-heading{
+    font-size: 19px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.home__header-icon .material-icons-outlined{
+    color: rgba(7, 7, 7, 0.842);
+    padding: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home__header-icon .material-icons-outlined:hover{
+    background: rgba(221, 220, 220, 0.534);
+}
+.home__user{
+    display: grid;
+    grid-template-columns: 60px auto;
+}
+
+.home__user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-tweet__tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__user-picture img{
+    cursor: pointer;
+ border-radius: 50%;
+ height: 50px;
+}
+
+.user-tweet__input{
+    border: 0;
+    padding: 6px;
+    font-size: 18px;
+    outline: 0;
+}
+.user-tweet__tools-icons{
+    display: flex;
+}
+
+.user-tweet__tools-icons-container{
+    position: relative;
+}
+
+.user-tweet__tools-icons-container:hover .tooltip{
+    opacity: 1;
+}
+.user-tweet__tools-icons-container .material-icons-outlined{
+    color: #1da0f2cc;
+    font-weight: 200;
+    padding: 5px;
+    margin-right: 8px;
+    transition: all .18s ease;
+    border-radius: 30px;
+}
+
+.user-tweet__tools-icons-container .material-icons-outlined:hover{
+    background: #1da0f21a;
+    cursor: pointer;
+}
+
+.user-tweet__btn{
+    padding: 8px 17px;
+    border: 0;
+    font-weight: 600;
+    font-size: 15px;
+    background: #1da1f2;
+    color: rgba(255, 255, 255, 0.897);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background .15s;
+}
+
+.user-tweet__btn:hover{
+    background: #1795e4;
+}
+
+.tweet-section__profile-img{
+    height: 50px;
+    border-radius: 50%;
+}
+.tweet-section__profile-img:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+.profile-name:hover , 
+.tweet-section__suggestion-heading:hover, 
+.tweet-section__suggestion-see-more:hover,
+.post-time:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tweet-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background .20s ease;
+}
+
+.tweet-section:hover{
+    background-color: rgba(226, 226, 226, 0.301);
+}
+
+.tweet-section__suggestion{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.tweet-section__container{
+    display: grid;
+    grid-template-columns: 60px auto;
+}
+
+.tweet-section__info{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+   
+}
+
+.tweet-img{
+    height: 230px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tweet-link{
+    color: #1795e4;
+}
+
+.tweet-link:hover{
+    text-decoration: underline;
+}
+.tweet-section__info-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-section__info-heading-left{
+    display: flex;
+    gap: 5px;
+}
+
+.tweet-section__info-action {
+    display: flex;
+    margin-top: 5px;
+}
+
+.tweet-section__suggestion-heading{
+    font-weight: 650;
+    font-size: 14px;
+}
+
+.tweet-section__suggestion-see-more{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tweet-section__info-action div{
+   display: flex;
+   align-items: center;
+   margin-right: 90px;
+    
+}
+
+.tweet-reaction .material-icons-outlined{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.tweet-count  {
+   font-size: 13px; 
+  
+}
+
+
+.profile-name{
+    font-weight: 650;
+}
+
+.tweet-section__info-heading-right .material-icons-outlined{
+  padding: 5px;
+  border-radius: 20px;
+  transition: background .18s ease;
+
+}
+
+.tweet-section__info-heading-right .material-icons-outlined:hover{
+    background-color: #1da0f21f;
+    cursor: pointer;
+}
+
+.reaction , .reaction-red{
+    padding: 7px;
+    border-radius: 30px;
+    transition: all .18s ease;
+}
+
+.tweet-reaction{
+    position: relative;
+    cursor: pointer;
+}
+
+.tweet-reaction:hover .tweet-count{
+   color: #1795e4dc;
+}
+
+.tweet-reaction:hover .tweet-count-red{
+    color: rgba(236, 12, 49, 0.747);
+ }
+   
+.tweet-reaction:hover .reaction{
+   background: #1795e42f;
+   color: #1795e4dc   ;
+   
+}
+
+.tweet-reaction:hover .reaction-red{
+   color: rgba(236, 12, 49, 0.747);
+   background-color:rgba(236, 12, 49, 0.11); ;
+ }
+
+ .tooltip{
+    position: absolute;
+    left: 10px;
+    bottom: -25px;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    padding: 3px;
+    font-size: 11px;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .19s ease;
+ }
+
+ .tweet-reaction:hover .tooltip{
+    opacity: 1;
+ }

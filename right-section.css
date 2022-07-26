@@ -1,0 +1,220 @@
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    gap: 1rem;
+  
+
+}
+
+
+/* =========== TOP ============ */
+.feed__top{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 5px;
+    z-index: 7;
+}
+
+.feed-search{
+    position: relative;
+}
+
+.feed-search-input{
+    background-color: rgb(239, 243, 244);
+    padding: 15px 110px 15px 50px;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+   
+    
+}
+.feed-search-input:focus {
+   border: 1px solid  #1da1f2;
+   background-color: white;
+   transition: all .18s ease;
+}
+
+
+.feed-search-input::placeholder{
+    font-size: 16px;
+}
+
+.feed-search .material-icons-outlined{
+    position: absolute;
+    top: 11px;
+    left: 18px;
+    color: rgb(150, 149, 149);
+}
+
+
+/* ========== MIDDLE ============= */
+
+.feed__middle{
+    background: rgba(240, 240, 240, 0.479);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feed__middle-heading{
+    font-size: 19px;
+}
+
+.feed__sports{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 10px;
+}
+ .feed__sports:hover{
+    background: rgba(240, 240, 240, 0.918);
+ }
+.feed__sports-heading , .feed__sports-trending-with , .feed__trending-heading,.feed__trending-tweet-count{
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+
+.feed__sports-trending-with .blue{
+    font-size: 14px; 
+}
+
+.blue{
+    color: #1da1f2;
+}
+
+.grey{
+    color: rgb(97, 97, 97);
+}
+
+.feed__sports-desc{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 650;
+}
+.feed__sports-img img{
+  height: 68px;
+  border-radius: 10px;
+}
+
+
+.feed__trending{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.feed__trending-tweet{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 650;
+}
+
+.feed__trending-right .material-icons-outlined{
+  padding: 5px;
+  border-radius: 20px;
+  transition: background .18s ease;
+}
+
+.feed__trending-right .material-icons-outlined:hover{
+background-color: #1da0f21f;
+cursor: pointer;
+}
+
+.feed__trending:hover{
+    background: rgba(240, 240, 240, 0.918);
+}
+
+
+
+/* ============ BOTTOM ============ */
+
+
+
+.feed-follow{
+    display: flex;
+    flex-direction: column ;
+    background: rgba(240, 240, 240, 0.479);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.feed-follow__heading{
+    font-size: 19px;
+    font-weight: 650;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.feed-follow__page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+  
+}
+
+
+
+.feed-follow__page-img img{
+    height: 48px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.feed-follow__page-info{
+    display: flex;
+}
+
+.feed-follow__page-btn{
+    border: 0;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.feed-follow__page-btn:hover{
+    opacity: .9;
+}
+
+.feed-follow__page:hover{
+    background: rgba(240, 240, 240, 0.918);
+    cursor: pointer;
+
+}
+
+.feed__bottom-down{
+    margin-top: 20px;
+}
+
+.feed__bottom-down a , .feed__bottom-down-copyright{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.feed__bottom-down a:hover{
+    text-decoration: underline;
+}
+
+.feed-follow-page .name{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.verified{
+    filter: invert(48%) sepia(84%) saturate(2403%) hue-rotate(180deg) brightness(100%) contrast(89%);
+    height: 18px;
+  
+}
